@@ -52,7 +52,7 @@ class QLearningAgent():
             newstate = pop[0]
         #print('finish update')
     def simulate(self):
-        b = board.board()
+        b = board.board(size = 15, rule = 5)
         state = b.getstate()
         #print(state)
         stone = 1
